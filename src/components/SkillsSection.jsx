@@ -19,7 +19,7 @@ export default function SkillsSection() {
   ]
 
   return (
-    <section id='skills' className='section-odd'>
+    <section id='skills'>
       <h2>Skills</h2>
       <div className='cards-grid'>
         {skillCategories.map((category, index) => (
