@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default function HeroSection() {
   return (
@@ -11,7 +12,7 @@ export default function HeroSection() {
         technologies.
       </p>
       <div>
-        <a href='#contact'>Get In Touch</a>
+        <Link to='/projects'>See what I'm working on</Link>
         <a href='mailto:jackcaindev@gmail.com'>Email Me</a>
       </div>
     </section>
