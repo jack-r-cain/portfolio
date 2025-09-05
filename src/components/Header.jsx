@@ -10,10 +10,10 @@ export default function Header() {
         </div>
         <ul>
           <li>
-            <a href='/#about'>About</a>
+            <Link to='/'>Home</Link>
           </li>
           <li>
-            <a href='/#skills'>Skills</a>
+            <Link to='/blog'>Blog</Link>
           </li>
           <li>
             <Link to='/projects'>My Projects</Link>

@@ -1,28 +1,26 @@
-import React from 'react'
-
 export default function ProjectsSection() {
   const skillCategories = [
     {
       title: 'Todo App',
-      skills: ['React.js', 'JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3'],
+      short_description: '',
     },
     {
       title: 'Backend',
-      skills: ['Python', 'FastAPI', 'Express.js', 'RESTful APIs', 'GraphQL'],
+      short_description: '',
     },
     {
       title: 'Cloud & DevOps',
-      skills: ['AWS (EC2, S3, Lambda)', 'Docker', 'Git/GitHub'],
+      short_description: '',
     },
     {
       title: 'AI/ML',
-      skills: ['OpenAI APIs', 'LangChain', 'Hugging Face', 'RAG Systems'],
+      short_description: '',
     },
   ]
 
   return (
     <section id='projects'>
-      <h2>Skills</h2>
+      <h2>My Projects</h2>
       <div className='cards-grid'>
         {skillCategories.map((category, index) => (
           <article key={index} className='card skill-card'>

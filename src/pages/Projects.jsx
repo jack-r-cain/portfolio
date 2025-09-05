@@ -1,11 +1,11 @@
 import Footer from '../components/Footer'
-import SubpageHeader from '../components/SubpageHeader'
+import Header from '../components/Header'
 
 export default function Projects() {
   return (
     <>
       <title>Projects</title>
-      <SubpageHeader />
+      <Header />
 
       <h1>Projects</h1>
       <Footer />
